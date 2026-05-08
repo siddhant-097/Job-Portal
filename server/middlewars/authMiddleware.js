@@ -13,7 +13,7 @@ export const protectCompany = async (req,res,next) => {
 
         const decoded = jwt.verify(token, process.env.JWT_SECRET)
 
-        request.company = await Company.findById(decoded.id).select('-password')
+        req.company = await Company.findById(decoded.id).select('-password')
 
         next()
     } catch (error) {
