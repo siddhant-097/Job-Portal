@@ -2,6 +2,7 @@ import Job from "../models/Job.js"
 import JobApplication from "../models/JobApplication.js"
 import User from "../models/User.js"
 import { v2 as cloudinary } from "cloudinary"
+
 // Get user data
 export const getUserData = async (req, res) => {
 
@@ -12,13 +13,13 @@ export const getUserData = async (req, res) => {
         const user = await User.findById(userId)
 
         if (!user) {
-            return res.json({ succes: false, message: 'User Not Found' })
+            return res.json({ success: false, message: 'User Not Found' })
         }
 
         res.json({ success: true, user })
 
     } catch (error) {
-        res.json({ succes: false, message: error.message })
+        res.json({ success: false, message: error.message })
     }
 
 }
@@ -99,7 +100,7 @@ export const updateUserResume = async (req, res) => {
 
         await userData.save()
 
-        res.json({succes:true, message:'Resume Updated'})
+        res.json({success:true, message:'Resume Updated'})
 
     } catch (error) {
         
