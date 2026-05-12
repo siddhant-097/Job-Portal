@@ -70,7 +70,6 @@ export const AppContextProvider = (props) => {
         try {
 
             const token = await getToken();
-            console.log("Frontend Clerk token:", token);
 
             const { data } = await axios.get(backendUrl + '/api/users/user',
                 { headers: { Authorization: `Bearer ${token}` } })
@@ -115,7 +114,10 @@ export const AppContextProvider = (props) => {
         showRecruiterLogin, setShowRecruiterLogin,
         companyToken, setCompanyToken,
         companyData, setCompanyData,
-        backendUrl
+        backendUrl, 
+        userData, setUserData,
+        userApplications, setUserApplications,
+        fetchUserData
     }
 
     return (<AppContext.Provider value={value}>
