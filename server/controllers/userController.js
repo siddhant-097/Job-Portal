@@ -2,11 +2,12 @@ import Job from "../models/Job.js"
 import JobApplication from "../models/JobApplication.js"
 import User from "../models/User.js"
 import { v2 as cloudinary } from "cloudinary"
+import { getAuth } from '@clerk/express'
 
 // Get user data
 export const getUserData = async (req, res) => {
 
-    const userId = req.auth.userId
+    const { userId } = getAuth(req)
 
     try {
 
@@ -29,7 +30,7 @@ export const applyForJob = async (req, res) => {
 
     const { jobId } = req.body
 
-    const userId = req.auth.userId
+    const { userId } = getAuth(req)
 
     try {
         
@@ -65,7 +66,7 @@ export const getUserJobApplications = async (req, res) => {
 
     try {
         
-        const userId = req.auth.userId
+        const { userId } = getAuth(req)
 
         const applications = await JobApplication.find({userId})
         .populate('companyId', 'name email image')
@@ -87,7 +88,7 @@ export const getUserJobApplications = async (req, res) => {
 export const updateUserResume = async (req, res) => {
     try {
         
-        const userId = req.auth.userId
+        const { userId } = getAuth(req)
 
         const resumeFile = req.resumeFile
 
