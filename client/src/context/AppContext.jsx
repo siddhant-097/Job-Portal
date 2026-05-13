@@ -37,7 +37,6 @@ export const AppContextProvider = (props) => {
 
             if (data.success) {
                 setJobs(data.jobs)
-                console.log(data.jobs);
             } else {
                 toast.error(data.message)
             }
@@ -55,7 +54,6 @@ export const AppContextProvider = (props) => {
 
             if (data.success) {
                 setCompanyData(data.company)
-                console.log(data);
             } else {
                 toast.error(data.message)
             }
