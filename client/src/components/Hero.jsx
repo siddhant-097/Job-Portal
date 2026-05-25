@@ -50,6 +50,7 @@ const Hero = () => {
                 <img className='h-6' src={assets.microsoft_logo} alt="" />
                 <img className='h-6' src={assets.walmart_logo} alt="" />
                 <img className='h-6' src={assets.accenture_logo} alt="" />
+                <img className='h-6' src={assets.google_logo} alt="" />
                 <img className='h-6' src={assets.samsung_logo} alt="" />
                 <img className='h-6' src={assets.amazon_logo} alt="" />
                 <img className='h-6' src={assets.adobe_logo} alt="" />
