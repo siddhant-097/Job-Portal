@@ -150,35 +150,35 @@ Add screenshots of:
 
 - Home Page
 ```md
-![Home Page](C:\Users\siddh\Pictures\Screenshots/Screenshot 2026-06-18 190350.png)
+![Home Page](C:\Users\siddh\Documents\job portal\screenshots/home-page.png)
 ```
 
 ---
 
 - Job Listings Page
 ```md
-![Job Listings Page](C:\Users\siddh\Pictures\Screenshots/Screenshot 2026-06-18 190401.png)
+![Job Listings Page](C:\Users\siddh\Documents\job portal\screenshots/job-listings-page.png)
 ```
 
 ---
 
 - Job Details Page
 ```md
-![Job Details Page](C:\Users\siddh\Pictures\Screenshots/Screenshot 2026-06-18 191156.png)
+![Job Details Page](C:\Users\siddh\Documents\job portal\screenshots/job-details-page.png)
 ```
 
 ---
 
 - Recruiter Dashboard
 ```md
-![Recruiter Dashboard](C:\Users\siddh\Pictures\Screenshot/Screenshot 2026-06-18 191337.png)
+![Recruiter Dashboard](C:\Users\siddh\Documents\job portal\screenshots/recruiter-dashboard.png)
 ```
 
 ---
 
 - Application Management Dashboard
 ```md
-![Application Management Dashboard](C:\Users\siddh\Pictures\Screenshot/Screenshot 2026-06-18 191537.png)
+![Application Management Dashboard](C:\Users\siddh\Documents\job portal\screenshots/application-management-dashboard.png)
 ```
 
 ---
