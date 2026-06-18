@@ -149,37 +149,35 @@ npm run dev
 Add screenshots of:
 
 - Home Page
-```md
+
 ![Home Page](screenshots/home-page.png)
-```
+
 
 ---
 
 - Job Listings Page
-```md
+
 ![Job Listings Page](screenshots/job-listings-page.png)
-```
 
 ---
 
 - Job Details Page
-```md
+
 ![Job Details Page](screenshots/job-details-page.png)
-```
+
 
 ---
 
 - Recruiter Dashboard
-```md
+
 ![Recruiter Dashboard](screenshots/recruiter-dashboard.png)
-```
 
 ---
 
 - Application Management Dashboard
-```md
+
 ![Application Management Dashboard](screenshots/application-management-dashboard.png)
-```
+
 
 ---
 
