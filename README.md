@@ -59,7 +59,7 @@ A full-stack MERN-based Job Application Portal that connects job seekers with re
 ## 📂 Project Structure
 
 ```bash
-CareerNexo/
+Job-Portal/
 │
 ├── client/
 │   ├── src/
@@ -72,6 +72,13 @@ CareerNexo/
 │   ├── routes/
 │   ├── middleware/
 │   └── package.json
+│
+├── screenshots/
+│   ├── home-page.png
+│   ├── job-listings-page.png
+│   ├── job-details-page.png
+│   ├── recruiter-dashboard.png
+│   └── application-management-dashboard.png
 │
 ├── README.md
 └── .env
